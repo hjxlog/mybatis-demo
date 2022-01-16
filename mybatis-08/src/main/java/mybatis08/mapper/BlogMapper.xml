@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis01.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mybatis08.mapper.BlogMapper">
+
+
+    <select id="queryBlogIF" resultType="mybatis08.domain.Blog" parameterType="map">
+        select * from blog
+        <where>
+            <if test="title != null">
+                and title = #{title}
+            </if>
+            <if test="author != null">
+                and author = #{author}
+            </if>
+        </where>
+    </select>
+
+    <select id="queryBlogChoose" resultType="mybatis08.domain.Blog" parameterType="map">
+        SELECT * FROM blog WHERE 1=1
+        <choose>
+            <when test="title != null">
+                AND title like #{title}
+            </when>
+            <when test="author != null">
+                AND author like #{author}
+            </when>
+            <otherwise>
+                AND views > 3
+            </otherwise>
+        </choose>
+    </select>
+
+    <update id="updateBlogSet" parameterType="map">
+        update blog
+        <set>
+            <if test = "title!=null">
+                title = #{title},
+            </if>
+            <if test = "author!=null">
+                author = #{author},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="queryBlogForeach" parameterType="map" resultType="mybatis08.domain.Blog">
+        SELECT * FROM blog where id in
+        <foreach collection="ids" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </select>
+</mapper>

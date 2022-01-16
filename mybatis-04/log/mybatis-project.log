@@ -1,0 +1,110 @@
+[INFO][21-12-01][mybatis04.mybatis06.mapper.UserMapperTest]===info===
+[DEBUG][21-12-01][mybatis04.mybatis06.mapper.UserMapperTest]===debug===
+[ERROR][21-12-01][mybatis04.mybatis06.mapper.UserMapperTest]===error===
+[DEBUG][21-12-01][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-01][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-01][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 393040818.
+[DEBUG][21-12-01][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@176d53b2]
+[DEBUG][21-12-01][mybatis04.mybatis06.mapper.UserMapper.selectById]==>  Preparing: select * from public.user where id = ?
+[DEBUG][21-12-01][mybatis04.mybatis06.mapper.UserMapper.selectById]==> Parameters: 1(Integer)
+[DEBUG][21-12-01][mybatis04.mybatis06.mapper.UserMapper.selectById]<==      Total: 1
+[DEBUG][21-12-01][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@176d53b2]
+[DEBUG][21-12-01][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [org.postgresql.jdbc.PgConnection@176d53b2]
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 393040818 to pool.
+[INFO][21-12-04][mybatis04.mybatis06.mapper.UserMapperTest]===info===
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapperTest]===debug===
+[ERROR][21-12-04][mybatis04.mybatis06.mapper.UserMapperTest]===error===
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 158453976.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]==>  Preparing: select * from public.user limit ? offset ?
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]==> Parameters: 1(Integer), 3(Integer)
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]<==      Total: 1
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 158453976 to pool.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 158453976.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]==>  Preparing: select * from public.user limit ? offset ?
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]==> Parameters: 3(Integer), 3(Integer)
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]<==      Total: 3
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 158453976 to pool.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 158453976.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]==>  Preparing: select * from public.user limit ? offset ?
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]==> Parameters: 3(Integer), 3(Integer)
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserByPages]<==      Total: 3
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [org.postgresql.jdbc.PgConnection@971d0d8]
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 158453976 to pool.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1773638882.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@69b794e2]
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserList]==>  Preparing: select * from public.user
+[DEBUG][21-12-04][mybatis04.mybatis06.mapper.UserMapper.getUserList]==> Parameters:
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@69b794e2]
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [org.postgresql.jdbc.PgConnection@69b794e2]
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1773638882 to pool.

@@ -1,0 +1,15 @@
+[DEBUG][21-12-01][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-01][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-01][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 393040818.
+[DEBUG][21-12-01][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@176d53b2]
+[DEBUG][21-12-01][mybatis05.mybatis06.mapper.UserMapper.selectById]==>  Preparing: select * from public.user where id = ?
+[DEBUG][21-12-01][mybatis05.mybatis06.mapper.UserMapper.selectById]==> Parameters: 1(Integer)
+[DEBUG][21-12-01][mybatis05.mybatis06.mapper.UserMapper.selectById]<==      Total: 1
+[DEBUG][21-12-01][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@176d53b2]
+[DEBUG][21-12-01][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [org.postgresql.jdbc.PgConnection@176d53b2]
+[DEBUG][21-12-01][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 393040818 to pool.

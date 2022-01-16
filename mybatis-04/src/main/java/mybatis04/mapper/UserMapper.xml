@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mybatis04.mapper.UserMapper">
+
+    <resultMap id="userMap" type="mybatis04.domain.User">
+        <result column="id" property="id" />
+        <result column="name" property="userName" />
+        <result column="password" property="password" />
+    </resultMap>
+
+    <select id="selectById" resultMap="userMap" parameterType="int">
+        select * from public.user where id = #{id,jdbcType=INTEGER}
+    </select>
+
+    <select id="getUserByPages" parameterType="map" resultMap="userMap">
+        select * from public.user limit #{pageSize,jdbcType=VARCHAR} offset #{startIndex,jdbcType=VARCHAR}
+    </select>
+
+    <select id="getUserList" resultMap="userMap">
+        select * from public.user
+    </select>
+
+</mapper>
