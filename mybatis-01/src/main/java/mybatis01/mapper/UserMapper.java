@@ -17,4 +17,5 @@ public interface UserMapper {
     boolean update2(Map map);
 
     boolean delete(int id);
+
 }
