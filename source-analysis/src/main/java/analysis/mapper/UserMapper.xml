@@ -5,11 +5,7 @@
 <mapper namespace="analysis.mapper.UserMapper">
 
     <!-- 在当前mapper.xml中使用二级缓存-->
-    <cache
-        eviction="FIFO"
-        flushInterval="60000"
-        size="512"
-        readOnly="true"/>
+    <cache/>
 
     <resultMap id="userMap" type="analysis.domain.User">
         <result column="id" property="id"/>
@@ -19,6 +15,10 @@
 
     <select id="selectUserById" resultMap="userMap">
         select * from public.user where id = #{id}
+    </select>
+
+    <select id="selectAll" resultMap="userMap">
+        select * from public.user
     </select>
 
 </mapper>
